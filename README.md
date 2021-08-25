@@ -35,10 +35,9 @@ sudo pacman -Syu linux-headers dkms bc
 If you are running a non-vanilla kernel then install the headers to match the kernel package. Proceed to the section below.
 
 ### Gentoo Linux
-An unofficial Gentoo package is available, using this repository as upstream. It is available from the [trolltoo](https://github.com/dallenwilson/trolltoo) overlay. Gentoo does not use or require dkms for packaged drivers.
+An unofficial Gentoo package is available, using this repository as upstream. Gentoo does not use or require dkms for packaged drivers.
 ```
-# layman -a trolltoo
-# emerge --ask net-wireless/rtl8821ce-driver
+# just compile the driver noob!
 ```
 
 ### Manual installation of driver
